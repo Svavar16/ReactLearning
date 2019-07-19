@@ -8,9 +8,16 @@ import Hello from './components/Hello'
 function App() {
   return (
     <div className="App">
-      <Greet name='Bruce'/>
-      <Greet name='Clark'/>
-      <Greet name='Diana'/>
+      <Greet name='Bruce' heroName='Batman'> 
+      <p>This is a child paragraph</p>
+      </Greet>
+      <Greet name='Clark' heroName='Superman'>
+        <button>Action</button>
+      </Greet>
+      <Greet name='Diana' heroName='Wonder Woman'/>
+      <Welcome name='Bruce' heroName='Batman'></Welcome>
+      <Welcome name='Clark' heroName='Superman'></Welcome>
+      <Welcome name='Diana' heroName='Wonder Woman'></Welcome>
     </div>
   );
 }
