@@ -8,11 +8,13 @@ import Hello from './components/Hello'
 import Message from './components/message'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
+import EvencBind from './components/EventBind'
 
 
 function App() {
   return (
     <div className="App">
+      <EvencBind></EvencBind>
       <ClassClick></ClassClick>
       {/*<FunctionClick></FunctionClick>
       <Counter></Counter>
