@@ -9,14 +9,15 @@ import Message from './components/message'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import EvencBind from './components/EventBind'
-
+import ParentComponent from './components/ParentComponent'
 
 function App() {
   return (
     <div className="App">
-      <EvencBind></EvencBind>
+      <ParentComponent></ParentComponent>
+      {/*<EvencBind></EvencBind>
       <ClassClick></ClassClick>
-      {/*<FunctionClick></FunctionClick>
+      <FunctionClick></FunctionClick>
       <Counter></Counter>
       <Greet name='Bruce' heroName='Batman'> 
       <p>This is a child paragraph</p>
