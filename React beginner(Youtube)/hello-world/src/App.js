@@ -11,12 +11,14 @@ import ClassClick from './components/ClassClick'
 import EvencBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
+import NameList from './components/NameList'
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting></UserGreeting>
-      {/*<ParentComponent></ParentComponent>
+      <NameList></NameList>
+      {/*<UserGreeting></UserGreeting>
+      <ParentComponent></ParentComponent>
       <EvencBind></EvencBind>
       <ClassClick></ClassClick>
       <FunctionClick></FunctionClick>
