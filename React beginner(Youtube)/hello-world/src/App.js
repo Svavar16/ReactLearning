@@ -12,12 +12,20 @@ import EvencBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList'
+import StyleSheet from './components/StyleSheet'
+import Inline from './components/Inline'
+import './appStyles.css'
+import Styles from './appStyles.module.css'
 
 function App() {
   return (
     <div className="App">
+      <h1 className="error">Error</h1>
+      <h1 className={Styles.success}>Success</h1>
+      {/*<Inline />
+      <StyleSheet primary={true}/>
       <NameList></NameList>
-      {/*<UserGreeting></UserGreeting>
+      <UserGreeting></UserGreeting>
       <ParentComponent></ParentComponent>
       <EvencBind></EvencBind>
       <ClassClick></ClassClick>
