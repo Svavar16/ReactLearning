@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
+import Hero from "../components/Hero";
 
 class Error extends Component {
     render() {
         return (
-            <div>
-                hello from error page
-            </div>
+            <Hero />
         );
     }
 }
